@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">زكاة الإبل</string>
+    <string name="oneToFour">لا زكاة فيها لعدم بلوغ النصاب</string>
+    <string name="fifeToNine">شاة</string>
+    <string name="tenToFourteen">شاتان</string>
+    <string name="fifteenToNineteen">ثلاث شياه</string>
+    <string name="twentyToTwentyFive">خمس شياه</string>
+    <string name="twentySixToThirtyFive">بنت مخاض</string>
+    <string name="thirtySixToFortyFive">بنت لبون</string>
+    <string name="fortySixToSixty">حقة</string>
+    <string name="sixtyOneToSeventyFive">جذعة</string>
+    <string name="seventySixToNinety">بنتا لبون</string>
+    <string name="ninetyOneToOneHundredAndTwenty">حقتان</string>
+
+    <string name="explFifeToTwentyFive">الشاه من الغنم ما تم لها ستة أشهر ومن الماعز ما تم لها سنة.</string>
+    <string name="explTwentySixToThirtyFive">بنت مخاض: هى أنثى الإبل التى أتمت سنة واحدة ودخلت فى الثانية، سميت بذلك لأن أمها لحقت بالمخاض وهى حامل.</string>
+    <string name="explThirtySixToFortyFive">بنت لبون: هى أنثى الإبل التى أتمت سنتان ودخلت فى الثالثة، سميت بذلك للأن أمها وضعت غيرها وصارت ذات لبن.</string>
+    <string name="explFortySixToSixty">حقة: هى أنثى الإبل التى أتمت ثلاث سنين ودخلت فى الرابعة، سميت بذلك لأنها استحقت أن يطرقها الفحل.</string>
+    <string name="explSixtyOneToSeventyFive">جذعة: هى أنثى الإبل التى أتمت أربع سنين ودخلت فى الخامسة.</string>
+<!--    <string name="expl"></string>-->
+</resources>
