@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/choosenFragment">
+    <fragment
+        android:id="@+id/choosenFragment"
+        android:name="com.mnashat_dev.zkatelebel.ChoosenFragment"
+        android:label="fragment_choosen"
+        tools:layout="@layout/fragment_choosen" >
+        <action
+            android:id="@+id/action_choosenFragment_to_cowsFragment"
+            app:destination="@id/cowsFragment" />
+        <action
+            android:id="@+id/action_choosenFragment_to_camleFragment"
+            app:destination="@id/camleFragment" />
+        <action
+            android:id="@+id/action_choosenFragment_to_goatsFragment"
+            app:destination="@id/goatsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cowsFragment"
+        android:name="com.mnashat_dev.zkatelebel.CowsFragment"
+        android:label="fragment_cows"
+        tools:layout="@layout/fragment_cows" />
+    <fragment
+        android:id="@+id/camleFragment"
+        android:name="com.mnashat_dev.zkatelebel.CamelFragment"
+        android:label="fragment_camle"
+        tools:layout="@layout/fragment_camle" />
+    <fragment
+        android:id="@+id/goatsFragment"
+        android:name="com.mnashat_dev.zkatelebel.GoatsFragment"
+        android:label="fragment_goats"
+        tools:layout="@layout/fragment_goats" />
+</navigation>
